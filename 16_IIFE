@@ -1,4 +1,4 @@
- // Immediateli Invoked Function Expression (IIFE)
+ // Immediately Invoked Function Expression (IIFE)
 
 ( function ayush(){ // Named IIFE 
   console.log(`DB Connected`);
