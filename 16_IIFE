@@ -1,0 +1,15 @@
+ // Immediateli Invoked Function Expression (IIFE)
+
+( function ayush(){ // Named IIFE 
+  console.log(`DB Connected`);
+ })();
+
+ // first () -- where we write function defenition 
+ // second() -- this is used for execution for our function 
+
+ // global scope ke pollution se problem hoti hai kayi baar to uss global scope ke variables ka pollution htaane ke liye iife ka use kia jata h  
+
+
+ ( (name) => {
+   console.log(`DB connected TWO ${name}`);
+ } )('ayush');
